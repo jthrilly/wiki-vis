@@ -1,0 +1,98 @@
+{
+  "rootNode": [
+    0,
+    1
+  ],
+  "chainID": 123,
+  "chainURL": "http://wikichains.org/chains/123",
+  "chainName": "PG Tips",
+  "issuesMap": {
+    "4": "Child Labour"
+  },
+  "children": [
+    {
+      "articleID": "111",
+      "articleTitle": "Tea Plantation",
+      "articleType": "1",
+      "articleURL": "http://wikichains.org/articles/111",
+      "edges": [
+        2
+      ],
+      "issues": [
+        4,
+        7
+      ],
+      "coordinates": {
+        "latitude": 12.9274529,
+        "longitude": 77.590597
+      }
+    },
+    {
+      "articleID": "222",
+      "articleTitle": "Tea Plantation #2",
+      "articleType": "1",
+      "articleURL": "http://wikichains.org/articles/222",
+      "edges": [
+        2
+      ],
+      "issues": [
+        4,
+        7
+      ],
+      "coordinates": {
+        "latitude": 12.9274529,
+        "longitude": 77.590597
+      }
+    },
+    {
+      "articleID": "333",
+      "articleTitle": "Processing Plant",
+      "articleType": "2",
+      "articleURL": "http://wikichains.org/articles/333",
+      "edges": [
+        3
+      ],
+      "issues": [
+        4,
+        7
+      ],
+      "coordinates": {
+        "latitude": 12.9274529,
+        "longitude": 77.590597
+      }
+    },
+    {
+      "articleID": "444",
+      "articleTitle": "Distribution Center",
+      "articleType": "2",
+      "articleURL": "http://wikichains.org/articles/444",
+      "edges": [
+        4
+      ],
+      "issues": [
+        4,
+        7
+      ],
+      "coordinates": {
+        "latitude": 12.9274529,
+        "longitude": 77.590597
+      }
+    },
+    [],
+    {
+      "articleID": "555",
+      "articleTitle": "PG Tips",
+      "articleType": "4",
+      "articleURL": "http://wikichains.org/articles/555",
+      "edges": [],
+      "issues": [
+        4,
+        7
+      ],
+      "coordinates": {
+        "latitude": 12.9274529,
+        "longitude": 77.590597
+      }
+    }
+  ]
+}
