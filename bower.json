@@ -1,6 +1,13 @@
 {
   "name": "wiki-viz",
-  "version":"0.1",
+  "version": "0.1",
   "dependencies": {
+    "leaflet": "~0.7.2",
+    "leaflet.markercluster": "~0.4.0",
+    "jquery": "1.8.3",
+    "leaflet-providers": "~1.0.3",
+    "leaflet-plugins": "~1.1.1",
+    "Leaflet.awesome-markers": "~2.0.2",
+    "bootstrap": "2.3.1"
   }
 }

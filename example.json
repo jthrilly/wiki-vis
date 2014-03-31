@@ -2,7 +2,7 @@
   "rootNode": [
     0,
     1
-  ],
+  ],  
   "chainID": 123,
   "chainURL": "http://wikichains.org/chains/123",
   "chainName": "PG Tips",
@@ -40,7 +40,7 @@
         7
       ],
       "coordinates": {
-        "latitude": 12.9274529,
+        "latitude": 15.9274529,
         "longitude": 77.590597
       }
     },
@@ -57,7 +57,7 @@
         7
       ],
       "coordinates": {
-        "latitude": 12.9274529,
+        "latitude": 19.9274529,
         "longitude": 77.590597
       }
     },
@@ -74,11 +74,10 @@
         7
       ],
       "coordinates": {
-        "latitude": 12.9274529,
+        "latitude": 23.9274529,
         "longitude": 77.590597
       }
     },
-    [],
     {
       "articleID": "555",
       "articleTitle": "PG Tips",
@@ -90,7 +89,7 @@
         7
       ],
       "coordinates": {
-        "latitude": 12.9274529,
+        "latitude": 28.9274529,
         "longitude": 77.590597
       }
     }
