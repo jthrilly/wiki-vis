@@ -18,19 +18,19 @@ Leaflet-providers provides tile layers from different providers, including *Open
 
 In addition to the providers you are free to use, we support some layers which require registration.
 
-### Nokia.
+### HERE (formerly Nokia).
 
-In order to use Nokia basemaps, you must [register](https://developer.here.com/web/guest/myapps). With your `devID` and `appID` specified in the options, the available layers are:
+In order to use HERE basemaps, you must [register](http://developer.here.com/getting-started). With your `devID` and `appID` specified in the options.  the available layers are:
 
-* Nokia.normalDay
-* Nokia.normalGreyDay
-* Nokia.satelliteNoLabelsDay
-* Nokia.satelliteYesLabelsDay
-* Nokia.terrainDay
+* HERE.normalDay
+* HERE.normalGreyDay
+* HERE.satelliteNoLabelsDay
+* HERE.satelliteYesLabelsDay
+* HERE.terrainDay
 
 For example:
 ```Javascript
-L.tileLayer.provider('Nokia.terrainDay', {
+L.tileLayer.provider('HERE.terrainDay', {
     devID: 'insert ID here',
     appId: 'insert ID here'
 }).addTo(map);
@@ -41,16 +41,6 @@ L.tileLayer.provider('Nokia.terrainDay', {
 In order to use Mapbox maps, you must [register](https://tiles.mapbox.com/signup). If your user name is `YourName` and your map is called `MyMap` you can add it with
 ```JavaScript
 L.tileLayer.provider('MapBox.YourName.MyMap');
-```
-
-### CloudMade
-
-In order to use CloudMade maps, you must [register](http://account.cloudmade.com/register). You may use it with your `apiKey` and `styleID` specified in the options like this:
-```JavaScript
-L.tileLayer.provider('CloudMade', {
-    apiKey: 'MyAPIKey',
-    styleID: '123'
-}).addTo(map);
 ```
 
 ### Esri/ArcGIS

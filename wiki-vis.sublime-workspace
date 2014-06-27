@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"articleTitle"
+			],
+			[
+				"ad",
+				"addPoint"
+			],
+			[
 				"grad",
 				"grad-col"
 			],
@@ -46,10 +54,6 @@
 			[
 				"co",
 				"coords"
-			],
-			[
-				"ad",
-				"addToLog"
 			],
 			[
 				"kin",
@@ -239,6 +243,86 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 2935,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/leaflet-dvf/src/leaflet.dvf.markers.js",
+			"settings":
+			{
+				"buffer_size": 26424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/leaflet-dvf/src/leaflet.dvf.chartmarkers.js",
+			"settings":
+			{
+				"buffer_size": 24415,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/GeoVisBuilder/index.cfm",
+			"settings":
+			{
+				"buffer_size": 4745,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/GeoVisBuilder/extensions/tags/layout.cfm",
+			"settings":
+			{
+				"buffer_size": 2179,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/js/main.js",
+			"settings":
+			{
+				"buffer_size": 528,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/leaflet-dvf/examples/js/markers.js",
+			"settings":
+			{
+				"buffer_size": 20605,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/bower.json",
+			"settings":
+			{
+				"buffer_size": 320,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "less/style.less",
+			"settings":
+			{
+				"buffer_size": 147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 353,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -247,11 +331,11 @@
 		"selected_items":
 		[
 			[
-				"install",
+				"instal",
 				"Package Control: Install Package"
 			],
 			[
-				"instal",
+				"install",
 				"Package Control: Install Package"
 			]
 		],
@@ -272,6 +356,32 @@
 	},
 	"file_history":
 	[
+		"/Users/joshua/Sites/wiki-vis/index.html",
+		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/contribute-page.php",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/GeoVisBuilder/.htaccess",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/GeoVisBuilder/Application.cfc",
+		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/page-build.php",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/shared/error.cfm",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/index.cfm",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/Application.cfc",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/extensions/com/visBuilderUtils.cfc",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/extensions/tags/layout.cfm",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/extensions/com/visBuilderValidate.cfc",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/extensions/com/visBuilder.cfc",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/includes/start.cfm",
+		"/Users/joshua/Documents/kunika.txt",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/README.md",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/includes/step3.cfm",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/cron.cfm",
+		"/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/InteractiveVisBuilder/includes/step1.cfm",
+		"/Users/joshua/Sites/wiki-vis/js/main.min.js",
+		"/Users/joshua/Sites/wiki-vis/css/style.css",
+		"/Users/joshua/Sites/netCanvas/js/NetworkCanvas.js",
+		"/Users/joshua/Sites/netCanvas/js/main.js",
+		"/Users/joshua/Sites/wiki-vis/components/leaflet-providers/leaflet-providers.js",
+		"/Users/joshua/Sites/wiki-vis/components/leaflet/build/build.html",
+		"/Users/joshua/Sites/wiki-vis/.gitignore",
+		"/Users/joshua/Sites/wiki-vis/bower.json",
 		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/style.css",
 		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/components/bootstrap/less/type.less",
 		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/footer.php",
@@ -285,17 +395,14 @@
 		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/js/main.js",
 		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/less/style.less",
 		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/less/variables.less",
-		"/Users/joshua/Documents/kunika.txt",
 		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/.bowerrc",
 		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/bower.json",
 		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/config.codekit",
 		"/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/bower_components/isotope/css/style.css",
-		"/Users/joshua/Sites/netCanvas/js/main.js",
 		"/Users/joshua/Desktop/netCanvas/js/main.js",
 		"/Users/joshua/Desktop/netCanvas/less/style.less",
 		"/Users/joshua/Sites/netCanvas/components/kineticjs/kinetic.js",
 		"/Users/joshua/Sites/netCanvas/js/main.min.js",
-		"/Users/joshua/Sites/netCanvas/js/NetworkCanvas.js",
 		"/Users/joshua/Sites/netCanvas/javascripts/main.js",
 		"/Users/joshua/Sites/netCanvas/bower.json",
 		"/Users/joshua/Sites/netCanvas/.bowerrc",
@@ -389,6 +496,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"request",
+			"error",
+			"user",
+			"step",
+			"stacked",
+			"radial",
+			"custom s",
+			"window",
 			"255",
 			"margin",
 			"brand-primary",
@@ -508,15 +623,7 @@
 			"=",
 			"var ",
 			"anchor",
-			"Label",
-			"label",
-			"Label",
-			"label",
-			"shape",
-			"anchor",
-			"nodeOrigin",
-			"var ",
-			"dragNode"
+			"Label"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -534,8 +641,281 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 2935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								984,
+								984
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 693.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "components/leaflet-dvf/src/leaflet.dvf.markers.js",
+					"settings":
+					{
+						"buffer_size": 26424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 22740.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "components/leaflet-dvf/src/leaflet.dvf.chartmarkers.js",
+					"settings":
+					{
+						"buffer_size": 24415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1564.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/GeoVisBuilder/index.cfm",
+					"settings":
+					{
+						"buffer_size": 4745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ColdFusion/HTML+CFML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/private/var/folders/b9/20vrqlf552q6cq70ny0cyqhc0000gn/T/8a047afe-2e29-4828-b796-12507431d3a7/www/GeoVisBuilder/extensions/tags/layout.cfm",
+					"settings":
+					{
+						"buffer_size": 2179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ColdFusion/HTML+CFML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/js/main.js",
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								499,
+								499
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "components/leaflet-dvf/examples/js/markers.js",
+					"settings":
+					{
+						"buffer_size": 20605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1693,
+								1662
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 801.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Applications/MAMP/htdocs/wp-content/themes/GeoNetTheme/bower.json",
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								317
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "less/style.less",
+					"settings":
+					{
+						"buffer_size": 147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "bower.json",
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -599,6 +979,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 264.0,
+	"side_bar_width": 319.0,
 	"status_bar_visible": true
 }
