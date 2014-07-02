@@ -4,4 +4,74 @@
 body {
 	margin:0;
 	padding:0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.leaflet-tile-pane {
+	opacity: 1;
+}
+
+.leaflet-container {
+	background: #09131B;
+}
+
+.grid {
+	width:200px;
+	height:200px;
+	/*border-right:1px solid #eee;*/
+	/*display: inline-block;*/
+	float:left;
+	text-align: center;
+	line-height: 50px;
+	/*background:url('img/simple-bgs/001100.png');*/
+}
+
+#line1 {
+	stroke:rgb(255,0,0);
+	stroke-width:2;
+}
+
+.row {
+	height:200px;
+	width:200px;
+	// position:absolute;
+		position:relative;
+	top:-200px;
+
+
+}
+
+#svg1 {
+	width:1400px;
+	height:200px;
+	// position:absolute;
+}
+
+.simple-map{
+	z-index: -10;
+		overflow: hidden;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+	// width:500px;
+
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background:black;
+    margin:0 auto;
+    position:relative;
+    top:75px;
+}
+
+.article-text {
+	color:Tomato;
+	font-size:12px;
+	position:relative;
+	top:70px;
 }

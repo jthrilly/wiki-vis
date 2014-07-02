@@ -1,0 +1,96 @@
+{
+    "chainID": 32708,
+    "issuesMap": ["Working Conditions", "Human Rights", "Environmental Damage", "Conflict", "Animal welfare", "Child labour", "Forced Labour ", "Tax Avoidance", "Other"],
+    "chainURL": "http://wikichains.oii.ox.ac.uk/chains/32708",
+    "chainName": "Chain Example",
+    "children": [{
+        "id": 68475,
+        "title": "Article 68475",
+        "type": 2,
+        "url": "http://wikichains.oii.ox.ac.uk/article/68475",
+        "coordinates": {
+            "lat": 45.58211978185579,
+            "lng": -15.04855882114498
+        },
+        "issues": [1, 7, 3, 0, 5, 4, 6, 8]
+    }, {
+        "id": 88269,
+        "title": "Article 88269",
+        "type": 3,
+        "url": "http://wikichains.oii.ox.ac.uk/article/88269",
+        "coordinates": {
+            "lat": 26.796308034424612,
+            "lng": 83.80426086630905
+        },
+        "issues": [1, 0, 2, 3, 8]
+    }, {
+        "id": 11474,
+        "title": "Article 11474",
+        "type": 0,
+        "url": "http://wikichains.oii.ox.ac.uk/article/11474",
+        "coordinates": {
+            "lat": 65.30551496543467,
+            "lng": 79.61514030728722
+        },
+        "issues": [1, 7, 0, 4, 6, 5, 8, 2]
+    }, {
+        "id": 66198,
+        "title": "Article 66198",
+        "type": 2,
+        "url": "http://wikichains.oii.ox.ac.uk/article/66198",
+        "coordinates": {
+            "lat": 61.054508195179565,
+            "lng": -35.93736622016877
+        },
+        "issues": [3, 7, 6]
+    }, {
+        "id": 14141,
+        "title": "Article 14141",
+        "type": 5,
+        "url": "http://wikichains.oii.ox.ac.uk/article/14141",
+        "coordinates": {
+            "lat": 31.098229010377537,
+            "lng": 26.20415335666621
+        },
+        "issues": []
+    }, {
+        "id": 84681,
+        "title": "Article 84681",
+        "type": 4,
+        "url": "http://wikichains.oii.ox.ac.uk/article/84681",
+        "coordinates": {
+            "lat": 37.58850880944452,
+            "lng": -4.828767502040137
+        },
+        "issues": [5]
+    }, {
+        "id": 49438,
+        "title": "Article 49438",
+        "type": 4,
+        "url": "http://wikichains.oii.ox.ac.uk/article/49438",
+        "coordinates": {
+            "lat": 45.98130873265683,
+            "lng": -65.40837276581442
+        },
+        "issues": [8]
+    }],
+    "edges": [{
+        "from": 0,
+        "to": 3
+    }, {
+        "from": 1,
+        "to": 3
+    }, {
+        "from": 2,
+        "to": 3
+    }, {
+        "from":4,
+        "to": 5
+    }, {
+        "from": 5,
+        "to": 6
+    }, {
+        "from": 3,
+        "to": 4
+    }]
+}

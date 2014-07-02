@@ -5,8 +5,11 @@
   <meta charset="utf-8">
 
   <title>Wikichains Chain Visualisation</title>
-  <script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js"></script>
-  <script src="js/main.min.js"></script>
+  <script type="text/javascript" src="components/jquery/jquery.js"></script>
+  <script type="text/javascript" src="components/leaflet/dist/leaflet.js"></script>
+  <script type="text/javascript" src="components/leaflet-dvf/dist/leaflet-dvf.min.js"></script>
+  <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+  <script type="text/javascript" src="js/main.min.js"></script>
 
   <link rel="stylesheet" href="css/style.css">
 
@@ -18,25 +21,40 @@
 <body style="margin:0;padding:0;width:100%;">
 
 	<div class="container" style="width:960px;margin-left:auto;margin-right:auto;">
-		<div class="map" id="map">
+		<div class="map" id="map"></div>
+		<div class="simple-map" id="simple-map">
+    		<div class="row-container">
+    			    <svg id="svg1">
+				    </svg>
+    		</div>
+		</div>
 	</div>
 
 	</div>
 
 <script>
-  window.onload = function() {
+$( document ).ready(function() {
 
   		
 
 	    window.vis = new wikiVis({
+	    	simple: false,
 	    	elem:'map',
 	    	mapWidth: $(window).width(),
 	    	mapHeight: $(window).height(),
 	    	data: 'example.json'
 	    });
 
+	    window.simpleVis = new wikiVis({
+	    	simple: true,
+	    	elem:'simple-map',
+	    	mapWidth: $(window).width(),
+	    	mapHeight: $(window).height(),
+	    	data: 'example.json'
+	    });
 
-	};
+
+	});
 </script>
 </body>
 </html>
