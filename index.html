@@ -20,7 +20,7 @@
 
 <body style="margin:0;padding:0;width:100%;">
 
-	<div class="container" style="width:960px;margin-left:auto;margin-right:auto;">
+	<div class="container" style="width:100%;margin-left:auto;margin-right:auto;">
 		<div class="map" id="map"></div>
 		<div class="simple-map" id="simple-map">
     		<div class="row-container">
@@ -35,23 +35,27 @@
 <script>
 $( document ).ready(function() {
 
-  		
+		var test = JSON.parse(generateRandomChain());
 
-	    window.vis = new wikiVis({
-	    	simple: false,
-	    	elem:'map',
-	    	mapWidth: $(window).width(),
-	    	mapHeight: $(window).height(),
-	    	data: 'example.json'
-	    });
+		$.getJSON('http://localhost/joshua/wiki-vis/sample.json').done(function(json) {
+		    window.vis = new wikiVis({
+		    	elem:'map',
+		    	mapWidth: '100%',
+		    	mapHeight: 500,
+		    	data: json
 
-	    window.simpleVis = new wikiVis({
-	    	simple: true,
-	    	elem:'simple-map',
-	    	mapWidth: $(window).width(),
-	    	mapHeight: $(window).height(),
-	    	data: 'example.json'
-	    });
+		    });
+
+		    window.simpleVis = new simpleWikiVis({
+		    	elem:'simple-map',
+		    	data: json
+		    });
+		}).fail(function() {
+			 console.log( "error getting data." );
+		});
+
+
+
 
 
 	});
